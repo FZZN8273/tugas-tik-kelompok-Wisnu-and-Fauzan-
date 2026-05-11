@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Presentasi TIK Kelas 8B - Kelompok Fauzan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Fredoka:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: #f8fafc; font-family: 'Quicksand', sans-serif; }
+
+        /* Konfigurasi Halaman PDF A4 Landscape */
+        .page {
+            width: 297mm;
+            height: 210mm;
+            padding: 60px;
+            margin: 0 auto;
+            background: #ffffff;
+            display: flex;
+            flex-direction: column;
+            page-break-after: always;
+            position: relative;
+            border: 12px solid #bae6fd; /* Border Biru Muda */
+            overflow: hidden;
+        }
+
+        /* Dekorasi Animasi Lucu */
+        .page::before {
+            content: "";
+            position: absolute;
+            width: 350px; height: 350px;
+            background: radial-gradient(circle, rgba(186, 230, 253, 0.4) 0%, transparent 70%);
+            top: -100px; right: -100px;
+            z-index: 0;
+        }
+
+        .content { position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; }
+
+        /* Judul Baku & Profesional */
+        h1 { font-family: 'Fredoka', sans-serif; font-size: 55px; color: #0369a1; text-align: center; margin-bottom: 20px; }
+        h2 { font-family: 'Fredoka', sans-serif; font-size: 38px; color: #7c3aed; margin-bottom: 25px; border-bottom: 4px dashed #fbbf24; display: inline-block; }
+        
+        p { font-size: 21px; line-height: 1.7; text-align: justify; color: #334155; margin-bottom: 15px; }
+        
+        .image-frame {
+            width: 100%;
+            height: 340px;
+            border-radius: 30px;
+            overflow: hidden;
+            margin-top: auto;
+            border: 8px solid #fef3c7;
+            box-shadow: 15px 15px 0px #bae6fd;
+        }
+        .image-frame img { width: 100%; height: 100%; object-fit: cover; }
+
+        .footer {
+            margin-top: 25px;
+            font-weight: 700;
+            color: #0369a1;
+            display: flex;
+            justify-content: space-between;
+            font-size: 18px;
+            border-top: 2px solid #e2e8f0;
+            padding-top: 10px;
+        }
+
+        .name-box {
+            background: #fef3c7;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            border: 3px dashed #d97706;
+            margin: 25px 0;
+        }
+
+        @media print {
+            body { background: none; }
+            .page { margin: 0; border: 12px solid #bae6fd !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page" style="background-color: #f0f9ff;">
+        <div class="content" style="text-align: center; justify-content: center;">
+            <p style="text-transform: uppercase; letter-spacing: 4px; font-weight: 700; color: #0369a1;">Laporan Presentasi TIK</p>
+            <h1>Pentingnya TIK dalam Kegiatan Belajar Mengajar Siswa</h1>
+            <div class="name-box">
+                <p style="font-size: 24px; color: #1e293b;">Disusun Oleh Kelompok:</p>
+                <p style="font-size: 28px; font-weight: 800; color: #d97706;">Fauzan, Wisnu, Farras, Syawir</p>
+                <p style="font-size: 20px; color: #0369a1; margin-top: 10px;">Kelas 8B - SMP Muhammadiyah 17 Ciputat</p>
+            </div>
+            <div class="image-frame" style="height: 200px; width: 450px; margin: 0 auto;">
+                <img src="https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Siswa Belajar Digital">
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>01. Definisi TIK</h2>
+            <p>Teknologi Informasi dan Komunikasi (TIK) mencakup seluruh peralatan teknis yang digunakan untuk memproses dan menyampaikan informasi. Dalam konteks pendidikan, TIK berfungsi sebagai sarana pendukung untuk meningkatkan efektivitas interaksi antara guru dan siswa.</p>
+            <p>Implementasi TIK di sekolah bertujuan agar proses transfer ilmu pengetahuan menjadi lebih dinamis, terstruktur, dan tidak terbatas oleh ruang dan waktu. Hal ini sangat relevan dengan kebutuhan siswa di era digital saat ini.</p>
+            <div class="image-frame">
+                <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Konsep Teknologi">
+            </div>
+            <div class="footer"><span>Slide 2</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>02. Aksesibilitas Informasi</h2>
+            <p>Penerapan TIK memberikan kemudahan bagi siswa dalam mengakses sumber belajar yang luas dan variatif. Siswa tidak lagi hanya bergantung pada literatur cetak yang tersedia di perpustakaan fisik sekolah.</p>
+            <p>Melalui jaringan internet, siswa dapat menjangkau perpustakaan digital, jurnal ilmiah, serta artikel edukasi dari seluruh penjuru dunia secara instan. Hal ini membantu siswa dalam memperdalam pemahaman materi dan menyelesaikan tugas dengan referensi yang kredibel.</p>
+            <div class="image-frame">
+                <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Akses Informasi Digital">
+            </div>
+            <div class="footer"><span>Slide 3</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>03. Media Pembelajaran Interaktif</h2>
+            <p>TIK memfasilitasi penggunaan media pembelajaran yang lebih variatif, seperti video tutorial, animasi grafis, dan simulasi digital. Media visual ini membantu memvisualisasikan konsep materi yang bersifat abstrak menjadi lebih mudah dipahami oleh siswa.</p>
+            <p>Penggunaan perangkat proyektor dan perangkat lunak presentasi di dalam kelas mampu meningkatkan konsentrasi dan minat belajar siswa, karena proses penyampaian materi berlangsung secara interaktif dan menarik secara visual.</p>
+            <div class="image-frame">
+                <img src="https://images.pexels.com/photos/7092456/pexels-photo-7092456.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Belajar Interaktif">
+            </div>
+            <div class="footer"><span>Slide 4</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>04. Efisiensi Pengolahan Tugas</h2>
+            <p>Penggunaan perangkat lunak pengolah kata dan aplikasi desain seperti Canva membantu siswa dalam menyusun tugas secara lebih rapi, sistematis, dan profesional. Kesalahan penulisan dapat diperbaiki dengan mudah tanpa merusak estetika dokumen.</p>
+            <p>Standardisasi kualitas tugas meningkat karena siswa dapat mengintegrasikan elemen grafis dan tabel secara presisi. Hal ini juga melatih kemampuan teknis siswa yang akan sangat bermanfaat di jenjang pendidikan yang lebih tinggi.</p>
+            <div class="image-frame">
+                <img src="https://images.pexels.com/photos/4050287/pexels-photo-4050287.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Produktivitas Belajar">
+            </div>
+            <div class="footer"><span>Slide 5</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>05. Kolaborasi Berbasis Cloud</h2>
+            <p>Sistem penyimpanan berbasis awan (Cloud Storage) memungkinkan kolaborasi antar siswa dalam satu proyek yang sama secara serentak. Anggota kelompok dapat melakukan revisi dan penambahan materi secara real-time tanpa terkendala jarak.</p>
+            <p>Metode ini meningkatkan efektivitas kerja sama tim. Setiap kontribusi dari anggota kelompok, seperti Fauzan, Wisnu, Farras, dan Syawir, dapat langsung terintegrasi secara otomatis, sehingga hasil akhir tugas menjadi lebih solid dan komprehensif.</p>
+            <div class="image-frame">
+                <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Kolaborasi Digital">
+            </div>
+            <div class="footer"><span>Slide 6</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>06. Manajemen Data Siswa</h2>
+            <p>Penyimpanan materi pembelajaran dalam bentuk digital menjamin keamanan data dari risiko kerusakan fisik seperti basah atau robek. Siswa dapat mengorganisir catatan mereka ke dalam folder elektronik yang sistematis.</p>
+            <p>Pencarian materi di masa mendatang menjadi jauh lebih cepat melalui fitur pencarian otomatis pada perangkat. Hal ini mendukung kemandirian siswa dalam melakukan peninjauan ulang (review) materi sebelum menghadapi evaluasi atau ujian.</p>
+            <div class="image-frame">
+                <img src="https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Penyimpanan Data">
+            </div>
+            <div class="footer"><span>Slide 7</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>07. Optimalisasi Komunikasi</h2>
+            <p>TIK memudahkan jalur komunikasi antara guru dan siswa melalui platform pesan instan atau sistem manajemen pembelajaran (LMS). Koordinasi terkait tugas dan pengumuman sekolah dapat dilakukan secara cepat dan akurat.</p>
+            <p>Hal ini meminimalisir terjadinya miskomunikasi. Siswa dapat melakukan konsultasi mengenai kesulitan belajar di luar jam sekolah, sehingga proses bimbingan akademik berlangsung secara berkelanjutan dan lebih personal.</p>
+            <div class="image-frame">
+                <img src="https://images.pexels.com/photos/4033636/pexels-photo-4033636.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Komunikasi Guru Siswa">
+            </div>
+            <div class="footer"><span>Slide 8</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>08. Pengembangan Literasi Digital</h2>
+            <p>Penggunaan TIK dalam kegiatan belajar mengajar secara langsung melatih kecakapan digital siswa. Siswa diajarkan untuk bersikap kritis dalam menyaring informasi dan mampu membedakan fakta dari informasi palsu (hoaks).</p>
+            <p>Literasi digital merupakan kompetensi fundamental di abad ke-21. Siswa kelas 8B yang memiliki kecakapan digital yang baik akan memiliki kesiapan lebih dalam menghadapi tantangan di masyarakat global yang berbasis teknologi.</p>
+            <div class="image-frame">
+                <img src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Literasi Digital">
+            </div>
+            <div class="footer"><span>Slide 9</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>09. Stimulasi Kreativitas</h2>
+            <p>Platform digital menyediakan ruang yang luas bagi siswa untuk mengekspresikan kreativitasnya. Melalui aplikasi pengolah gambar dan video, siswa dapat mentransformasikan ide-ide mereka menjadi konten visual yang menarik.</p>
+            <p>Proses kreatif ini merangsang kemampuan berpikir kritis dan inovatif. Tugas sekolah tidak lagi hanya sekadar teks, namun dapat berupa karya seni digital yang memiliki nilai estetika dan daya tarik tinggi.</p>
+            <div class="image-frame">
+                <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Kreativitas Konten">
+            </div>
+            <div class="footer"><span>Slide 10</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>10. Kesiapan Menuju Era Masa Depan</h2>
+            <p>Pengenalan teknologi sejak dini di tingkat sekolah menengah merupakan langkah strategis untuk mempersiapkan siswa menghadapi revolusi industri 4.0. Penguasaan TIK menjadi syarat mutlak dalam berbagai bidang pekerjaan di masa depan.</p>
+            <p>Dengan membiasakan diri menggunakan teknologi dalam KBM, siswa kelas 8B membangun fondasi yang kuat untuk menjadi sumber daya manusia yang kompetitif, inovatif, dan adaptif terhadap perubahan teknologi yang masif.</p>
+            <div class="image-frame">
+                <img src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Masa Depan Teknologi">
+            </div>
+            <div class="footer"><span>Slide 11</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="content">
+            <h2>Kesimpulan</h2>
+            <p>Integrasi TIK dalam kegiatan belajar mengajar merupakan kebutuhan esensial untuk menciptakan sistem pendidikan yang efisien, interaktif, dan relevan dengan zaman.</p>
+            <p>Mari kita manfaatkan seluruh fasilitas teknologi informasi yang disediakan oleh SMP Muhammadiyah 17 Ciputat dengan bijak dan bertanggung jawab demi tercapainya prestasi akademik yang optimal dan masa depan yang cerah.</p>
+            <div class="image-frame" style="height: 250px;">
+                <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Kesimpulan Tim">
+            </div>
+            <div class="footer"><span>Slide 12</span><span>Kelompok TIK 8B</span></div>
+        </div>
+    </div>
+
+    <div class="page" style="background-color: #fafaf9; border-color: #fbbf24;">
+        <div class="content" style="text-align: center; justify-content: center;">
+            <h1 style="color: #d97706; font-size: 80px;">TERIMA KASIH! ✨</h1>
+            <p style="font-size: 26px; font-weight: 700; color: #1e293b;">Apakah ada pertanyaan mengenai presentasi kami?</p>
+            <div class="name-box" style="background: white;">
+                <p><strong>Kelompok: Fauzan, Wisnu, Farras, Syawir</strong></p>
+                <p>Kelas 8B - Materi TIK</p>
+            </div>
+            <p style="font-size: 18px; color: #64748b; margin-top: 20px;">SMP Muhammadiyah 17 Ciputat Tangerang Selatan</p>
+        </div>
+    </div>
+
+</body>
+</html>
